@@ -1,4 +1,4 @@
-### Pizza Management Application
+## Pizza Management Application
 
 ## Overview
 This project is a pizza management application developed using the Next.js framework. It consists of two main functionalities for managing toppings and pizzas. The application allows pizza store owners to manage available toppings and lets pizza chefs create and manage their pizza masterpieces.
