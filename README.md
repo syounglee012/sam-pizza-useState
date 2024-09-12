@@ -34,21 +34,16 @@ CSS: For styling the components, focusing on mobile responsiveness and modern de
 To run this application locally, follow these steps:
 
 Clone the repository:
-`bash
-git clone https://github.com/your-repo-url/pizza-management-app.git`
+`git clone https://github.com/your-repo-url/pizza-management-app.git`
 
 Navigate to the project directory:
-`bash
-cd pizza-management-app`
+`cd pizza-management-app`
 
 Install dependencies:
-`bash
-npm install`
+`npm install`
 
 Start the development server:
-`bash
-npm run dev`
+`npm run dev`
 
 Open the application in your browser:
-`bash
-http://localhost:3000`
+`http://localhost:3000`
