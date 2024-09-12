@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Pizza Management Application
 
-## Getting Started
+## Overview
+This project is a pizza management application developed using the Next.js framework. It consists of two main functionalities for managing toppings and pizzas. The application allows pizza store owners to manage available toppings and lets pizza chefs create and manage their pizza masterpieces.
 
-First, run the development server:
+## Features
+Manage Toppings:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Display a list of available toppings.
+- Add new toppings.
+- Delete existing toppings.
+- Update existing toppings.
+- Prevent duplicate toppings from being added.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Manage Pizzas:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Display a list of existing pizzas and their toppings.
+- Create new pizzas and add toppings to them.
+- Delete existing pizzas.
+- Update the name of an existing pizza.
+- Update the toppings on an existing pizza.
+- Prevent duplicate pizzas from being added.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech&Tool Used
+Next.js: A React framework used for building the application structure.
 
-## Learn More
+React Hooks:
+- useState: Used to manage the state of pizzas and toppings.
+- Props are passed between components to manage data flow.
 
-To learn more about Next.js, take a look at the following resources:
+CSS: For styling the components, focusing on mobile responsiveness and modern design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
+To run this application locally, follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Clone the repository:
+`bash
+git clone https://github.com/your-repo-url/pizza-management-app.git`
 
-## Deploy on Vercel
+Navigate to the project directory:
+`bash
+cd pizza-management-app`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install dependencies:
+`bash
+npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Start the development server:
+`bash
+npm run dev`
+
+Open the application in your browser:
+`bash
+http://localhost:3000`
