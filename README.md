@@ -30,20 +30,4 @@ React Hooks:
 
 CSS: For styling the components, focusing on mobile responsiveness and modern design.
 
-## Installation
-To run this application locally, follow these steps:
 
-Clone the repository:
-`git clone https://github.com/your-repo-url/pizza-management-app.git`
-
-Navigate to the project directory:
-`cd pizza-management-app`
-
-Install dependencies:
-`npm install`
-
-Start the development server:
-`npm run dev`
-
-Open the application in your browser:
-`http://localhost:3000`
